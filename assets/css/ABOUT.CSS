@@ -1,0 +1,198 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+  }
+  
+  .bg-6B46C1 {
+    background-color: #6B46C1;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .text-gray-200 {
+    color: #E2E8F0;
+  }
+  
+  .text-gray-500 {
+    color: #6B7280;
+  }
+  
+  .dark .text-gray-400 {
+    color: #9CA3AF;
+  }
+  
+  .dark .text-gray-500 {
+    color: #6B7280;
+  }
+  
+  .bg-muted {
+    background-color: #E5E7EB;
+  }
+  
+  /* Section Spacing */
+  .py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .md\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  
+  .lg\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  
+  /* Grid */
+  .grid {
+    display: grid;
+  }
+  
+  .gap-6 {
+    gap: 1.5rem;
+  }
+  
+  .lg\:grid-cols-\[1fr_400px\] {
+    grid-template-columns: 1fr 400px;
+  }
+  
+  .lg\:gap-12 {
+    gap: 3rem;
+  }
+  
+  .xl\:grid-cols-\[1fr_600px\] {
+    grid-template-columns: 1fr 600px;
+  }
+  
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  /* Typography */
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .tracking-tighter {
+    letter-spacing: -0.05em;
+  }
+  
+  .sm\:text-5xl {
+    font-size: 3rem;
+  }
+  
+  .xl\:text-6xl\/none {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+  
+  .md\:text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .max-w-\[600px\] {
+    max-width: 600px;
+  }
+  
+  .max-w-\[700px\] {
+    max-width: 700px;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Spacing */
+  .space-y-2 > :not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  
+  .space-y-4 > :not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  
+  /* Images and Media */
+  .aspect-square {
+    aspect-ratio: 1 / 1;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .rounded-xl {
+    border-radius: 0.75rem;
+  }
+  
+  .object-contain {
+    object-fit: contain;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Team Member Avatars */
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .h-10 {
+    height: 2.5rem;
+  }
+  
+  .w-10 {
+    width: 2.5rem;
+  }
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
